@@ -2,11 +2,11 @@
 
 A single-screen tag browsing app built with Jetpack Compose and Material 3.
 
-## Error Disclosure
+## Error Fix Disclosure
 
-Upon attempting to compile and preview the app on an android device, it will simply not run. The error states
-that there is no static method "FlowRow". Updating the composeBom has had no effect. I apologize for the lack
-of screenshots, but the app logically should work.
+Initially, upon attempting to compile and preview the app on an android device, it will simply not run. The error states
+that there is no static method "FlowRow". Once the versions of composeBom, activityCompose, and kotlin were updated,
+the app is now able to run. 
 
 ## Materials Used
 
